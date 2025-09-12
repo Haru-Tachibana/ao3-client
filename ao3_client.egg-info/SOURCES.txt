@@ -1,8 +1,10 @@
 README.md
 setup.py
 ao3/__init__.py
+ao3/app.py
 ao3/cli.py
 ao3/db.py
+ao3/ebook.py
 ao3/reader.py
 ao3/utils.py
 ao3_client.egg-info/PKG-INFO

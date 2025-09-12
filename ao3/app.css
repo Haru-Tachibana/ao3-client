@@ -1,0 +1,150 @@
+/* ----------------------------
+   Global Styles
+---------------------------- */
+Screen {
+    background: #1e1e2e;
+    color: #c0caf5;
+}
+
+/* ----------------------------
+   Header & Footer
+---------------------------- */
+Header, Footer {
+    background: #11111f;
+    color: #ffffff;
+    height: 3;
+}
+
+/* ----------------------------
+   Top row: search + sort
+---------------------------- */
+#top-row {
+    height: 3;
+    background: #2e2e3e;
+    padding: 0 1;
+}
+
+/* Search input */
+#search-box {
+    border: round #5c5c8a;
+    color: #ffffff;
+    background: #2e2e3e;
+}
+
+/* Buttons */
+Button {
+    border: round #5c5c8a;
+    background: #3e3e5e;
+    color: #ffffff;
+}
+
+/* Hover & active button */
+Button:hover {
+    background: #5c5c8a;
+}
+Button:focus {
+    background: #7f7fd4;
+}
+
+/* ----------------------------
+   Middle content: article + results + sidebar
+---------------------------- */
+#middle {
+    height: 1fr;
+}
+
+/* Main area container - takes up most of the width */
+#main-area {
+    width: 75%;
+    height: 1fr;
+}
+
+/* Scrollable article - now takes up most of the space */
+#scroll-content {
+    height: 1fr;
+    border: round #5c5c8a;
+    background: #1e1e2e;
+    color: #c0caf5;
+    padding: 1;
+}
+
+/* Search results list - hidden by default, compact when visible */
+#results-list {
+    height: 12;
+    border: round #5c5c8a;
+    background: #2e2e3e;
+    color: #ffffff;
+    padding: 0 1;
+}
+
+/* Pagination buttons container - compact */
+#page-buttons {
+    height: 3;
+    padding: 0 1;
+    background: #2e2e3e;
+}
+
+/* Sidebar: bookmarks */
+#sidebar {
+    width: 20%;
+    height: 1fr;
+    border: round #5c5c8a;
+    background: #2e2e3e;
+    color: #ffffff;
+    padding: 0 1;
+}
+
+/* ListView items */
+ListView > ListItem {
+    padding: 0 1;
+}
+
+/* ----------------------------
+   Bottom action buttons
+---------------------------- */
+#bottom-row {
+    height: 3;
+    background: #2e2e3e;
+    color: #ffffff;
+    padding: 0 1;
+}
+
+/* Article title inside content */
+#fic-text > .title {
+    color: #ff9e64;
+}
+
+/* Pagination buttons */
+#prev-page, #next-page {
+    width: 12;
+    margin: 0 1;
+}
+
+/* Search input layout */
+#search-left {
+    width: 60%;
+}
+
+#search-right {
+    width: 40%;
+}
+
+/* Ensure no extra margins/padding create empty space */
+#main-area > * {
+    margin: 0;
+}
+
+/* Make sure the scroll content expands fully and takes maximum space */
+#scroll-content {
+    height: 1fr;
+}
+
+#scroll-content > Static {
+    height: auto;
+}
+
+/* Force the main area to use all available vertical space */
+#main-area {
+    width: 75%;
+    height: 1fr;
+}
