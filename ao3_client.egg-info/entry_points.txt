@@ -1,0 +1,2 @@
+[console_scripts]
+ao3 = ao3.cli:main

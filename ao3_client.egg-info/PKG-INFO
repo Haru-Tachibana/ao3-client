@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: ao3-client
+Version: 0.1.0
+Requires-Python: >=3.9
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: rich
+Dynamic: requires-dist
+Dynamic: requires-python
